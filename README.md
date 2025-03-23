@@ -1,5 +1,5 @@
 🍽️ Cozy Cups Eatery  
-🌐 Live Demo: Cozy Cups Eatery  
+🌐 Live Demo: https://cozycups.vercel.app/  
 
 A modern, responsive website for Cozy Cups Eatery, a trendy food spot serving waffles, boba tea, and more. Built using React.js, this website ensures an interactive user experience with smooth navigation.  
 
