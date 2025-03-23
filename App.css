@@ -1,0 +1,113 @@
+/* General Styles */
+/* Apply font to the whole website */
+body {
+  font-family: "Poppins", sans-serif; /* Change this to any font you like */
+  scroll-behavior: smooth;
+  background-color: #f8bbd0; /* Soft pastel pink */
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* App Container */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Header (Navbar) */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #d8b6ff; /* Soft pastel violet */
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+/* Logo Placeholder */
+.logo-placeholder {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: #6a1b9a;
+}
+
+/* Navigation Buttons */
+.nav-links {
+  display: flex;
+  gap: 15px;
+}
+
+.nav-links button {
+  background-color: #ff80ab; /* Baby pink */
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Hover effect: Button turns white with shadow */
+.nav-links button:hover {
+  background-color: white;
+  color: #ff80ab;
+  transform: scale(1.1);
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom Violet Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #a385ff;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #e5d6ff;
+}
+
+/* Footer */
+footer {
+  width: 100%;
+  background-color: #6a1b9a;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+  bottom: 0;
+}
+/* Smooth Fade-In Effect */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeIn 1s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}

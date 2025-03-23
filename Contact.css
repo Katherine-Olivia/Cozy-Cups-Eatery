@@ -1,0 +1,76 @@
+/* Full Page Contact Section */
+.contact-section {
+    height: 100vh; /* Full page height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8bbd0; /* Baby pink background */
+    color: #6a1b9a; /* Violet text */
+    padding: 50px;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+  }
+  
+  /* Show effect when in viewport */
+  .contact-section.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  /* Centered Heading */
+  .contact-section h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+  }
+  
+  /* Contact Information */
+  .contact-info {
+    font-size: 22px;
+    line-height: 1.8;
+    text-align: center;
+    margin-bottom: 30px;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+  }
+  
+  /* Locate Us - Address */
+  .address {
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 20px;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+  }
+  
+  /* Google Map Container */
+  .map-container {
+    width: 80%;
+    max-width: 800px;
+    height: 400px;
+    margin-top: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(106, 27, 154, 0.3);
+  }
+  
+  .map-container iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+  
+  /* Apply effect when visible */
+  .show .contact-section h2,
+  .show .contact-info,
+  .show .address {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  

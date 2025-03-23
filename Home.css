@@ -1,0 +1,92 @@
+/* Home Section */
+.home-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Pushes text left & logo right */
+    height: 100vh;
+    padding: 0 100px;
+    position: relative;
+  }
+  
+  /* Left-Aligned Text */
+  .home-text {
+    position: absolute;
+    top:200px; /* Move text up/down */
+    right: 700px; /* Move text left/right */
+    text-align: left;
+    max-width: 50%; /* Removes width limit */
+    white-space: nowrap;
+    
+  }
+  
+  .home-text h1 {
+    
+    font-size: 80px;
+    font-weight: bold;
+    color: #ff4081;
+    right: 500px;
+    text-shadow: 3px 3px 10px rgba(255, 64, 129, 0.3);
+    
+    
+  }
+  
+  .home-text p {
+    
+
+    font-size: 24px;
+    font-weight: bold;
+    color: #6a1b9a;
+    right: 500px;
+    text-shadow: 2px 2px 8px rgba(106, 27, 154, 0.2);
+    
+  }
+
+
+  .smallpara {
+   
+
+    position: absolute;
+    top: 500px; /* Move slightly below .home-text p */
+    right: 700px; /* Align with home-text */
+    text-align: left;
+    max-width: 50%;
+    white-space: nowrap;
+  
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff4081; /* Pink */
+    text-shadow: 3px 3px 10px rgba(255, 64, 129, 0.3);
+    
+  }
+  
+
+  /* Big Logo on Right */
+  .home-logo {
+    width: 500px; /* Big like an Instagram post */
+    height: 500px;
+    clip-path: circle(50%);
+    padding: 15px;
+    object-fit: contain;
+    position: absolute;
+    top: -400px; /* Starts above screen */
+    left: 250px; /* Positioned on the right */
+    transition: transform 0.5s ease-in-out, top 0.5s ease-in-out;
+  }
+  
+  /* Falling effect */
+  .falling {
+    top: 150px; /* Drops into position */
+  }
+  
+  /* Rotate + Glow Effect on Hover */
+  .home-logo:hover {
+    transform: rotate(360deg);
+    box-shadow: 0 0 30px rgba(248, 241, 241, 0.5);
+  }
+  
+  /* Make elements visible when scrolling */
+  .visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
