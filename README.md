@@ -11,28 +11,27 @@ A modern, responsive website for Cozy Cups Eatery, a trendy food spot serving wa
 ✅ Contact & Location Details – Customers can easily find and reach us 📍📞  
 
 
-⚙️ Tech Stack
-Frontend: React.js, JavaScript, Tailwind CSS
+⚙️ Tech Stack  
+Frontend: React.js, JavaScript, Tailwind CSS  
+Hosting: Vercel  
 
-Hosting: Vercel
+🚀 Installation & Setup  
+To run this project locally, follow these steps:  
 
-🚀 Installation & Setup
-To run this project locally, follow these steps:
+1️⃣ Clone the repository:  
 
-1️⃣ Clone the repository:
+git clone https://github.com/Katherine-Olivia/Cozy-Cups-Eatery.git  
+cd Cozy-Cups-Eatery  
 
-git clone https://github.com/Katherine-Olivia/Cozy-Cups-Eatery.git
-cd Cozy-Cups-Eatery
+2️⃣ Install dependencies:  
+npm install  
+3️⃣ Run the project:  
+npm start  
 
-2️⃣ Install dependencies:
-npm install
-3️⃣ Run the project:
-npm start
-
-🌍 Deployment
-The project is deployed on Vercel. 
-https://cozycups.vercel.app/
-👩‍💻 Contributors
-Katherine Olivia
+🌍 Deployment  
+The project is deployed on Vercel.   
+https://cozycups.vercel.app/  
+👩‍💻 Contributors  
+Katherine Olivia  
 
 
